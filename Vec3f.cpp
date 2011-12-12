@@ -17,9 +17,6 @@ Vec3f::Vec3f(float x, float y, float z)
 
 Vec3f::~Vec3f(void)
 {
-	delete &(this->x);
-	delete &(this->y);
-	delete &(this->z);
 }
 
 Vec3f Vec3f::Normalize()
